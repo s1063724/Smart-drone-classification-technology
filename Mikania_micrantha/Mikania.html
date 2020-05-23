@@ -1,0 +1,314 @@
+<html>
+  <head>
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="text/javascript">
+
+
+function initMap() {
+  var markers = [];
+  var infoWindows = [];
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 24.227254,lng: 120.581077},
+    zoom: 18
+  });
+  var geocoder = new google.maps.Geocoder();
+  console.log(geocoder);
+
+  //info windows
+  var info_config = [
+    '<h2>思源樓旁花圃</h2>'+
+    '<img class="infoImg" src="IMG_1574.JPG" width="150" height="150"><br/>'
+    ,'<h2>主顧樓後道路</h2>'+
+    '<img class="infoImg" src="IMG20200424121421.jpg" width="150" height="150"><br/>'
+    ,'<h2>主顧樓後道路</h2>'+
+    '<img class="infoImg" src="IMG20200424121413.jpg" width="150" height="150"><br/>'
+    ,'<h2>主顧樓後道路</h2>'+
+    '<img class="infoImg" src="IMG20200424122340.jpg" width="150" height="150"><br/>'
+    ,'<h2>排球場旁圍欄</h2>'+
+    '<img class="infoImg" src="IMG20200424165838.jpg" width="150" height="150"><br/>'
+    ,'<h2>櫻花步道旁</h2>'+
+    '<img class="infoImg" src="IMG20200424165533.jpg" width="150" height="150"><br/>'
+    ,'<h2>至善樓旁</h2>'+
+    '<img class="infoImg" src="IMG20200424164623.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125108.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125234.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125245.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125227.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125108.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁</h2>'+
+    '<img class="infoImg" src="IMG20200424125014.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場旁欄杆</h2>'+
+    '<img class="infoImg" src="IMG20200424125324.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場對面人行道</h2>'+
+    '<img class="infoImg" src="IMG20200424164338.jpg" width="150" height="150"><br/>'
+    ,'<h2>操場對面人行道</h2>'+
+    '<img class="infoImg" src="IMG20200424164341.jpg" width="150" height="150"><br/>'
+    ,'<h2>體育室旁草叢</h2>'+
+    '<img class="infoImg" src="IMG20200424124651.jpg" width="150" height="150"><br/>'
+    ,'<h2>游泳池旁</h2>'+
+    '<img class="infoImg" src="IMG20200424163442.jpg" width="150" height="150"><br/>'
+    ,'<h2>游泳池旁</h2>'+
+    '<img class="infoImg" src="IMG20200424163519.jpg" width="150" height="150"><br/>'
+    ,'<h2>游泳池旁</h2>'+
+    '<img class="infoImg" src="IMG20200424163516.jpg" width="150" height="150"><br/>'
+    ,'<h2>游泳池旁</h2>'+
+    '<img class="infoImg" src="IMG20200424162238.jpg" width="150" height="150"><br/>'
+    ,'<h2>溜冰場外欄杆</h2>'+
+    '<img class="infoImg" src="IMG20200424125444.jpg" width="150" height="150"><br/>'
+    ,'<h2>體育館旁</h2>'+
+    '<img class="infoImg" src="IMG20200424162716.jpg" width="150" height="150"><br/>'
+    ,'<h2>體育館旁</h2>'+
+    '<img class="infoImg" src="IMG20200424162728.jpg" width="150" height="150"><br/>'
+    ,'<h2>小羅馬前</h2>'+
+    '<img class="infoImg" src="IMG20200424123818.jpg" width="150" height="150"><br/>'
+    ,'<h2>小羅馬前</h2>'+
+    '<img class="infoImg" src="IMG20200424123842.jpg" width="150" height="150"><br/>'
+    ,'<h2>廢水處理外欄杆</h2>'+
+    '<img class="infoImg" src="IMG20200424122906.jpg" width="150" height="150"><br/>'
+    ,'<h2>廢水處理外欄杆</h2>'+
+    '<img class="infoImg" src="IMG20200424122914.jpg" width="150" height="150"><br/>'
+    ,'<h2>格倫樓左側</h2>'+
+    '<img class="infoImg" src="IMG20200424122435.jpg" width="150" height="150"><br/>'
+    ,'<h2>格倫樓左側</h2>'+
+    '<img class="infoImg" src="IMG20200424122509.jpg" width="150" height="150"><br/>'
+    ,'<h2>側邊花圃</h2>'+
+    '<img class="infoImg" src="IMG20200424122645.jpg" width="150" height="150"><br/>'
+    ,'<h2>生態池</h2>'+
+    '<img class="infoImg" src="IMG20200424120531.jpg" width="150" height="150"><br/>'
+    ,'<h2>生態園</h2>'+
+    '<img class="infoImg" src="IMG20200424120954.jpg" width="150" height="150"><br/>'
+    ,'<h2>生態園</h2>'+
+    '<img class="infoImg" src="IMG20200424120551.jpg" width="150" height="150"><br/>'
+    ,'<h2>生態園</h2>'+
+    '<img class="infoImg" src="IMG20200424121202.jpg" width="150" height="150"><br/>'
+    ,'<h2>生態園</h2>'+
+    '<img class="infoImg" src="IMG20200424121214.jpg" width="150" height="150"><br/>'
+    ,'<h2>方濟樓外欄杆</h2>'+
+    '<img class="infoImg" src="IMG20200424120737.jpg" width="150" height="150"><br/>'
+    ,'<h2>計中停車場</h2>'+
+    '<img class="infoImg" src="IMG20200424123537.jpg" width="150" height="150"><br/>'
+    ,'<h2>計中外斜坡</h2>'+
+    '<img class="infoImg" src="IMG20200424123455.jpg" width="150" height="150"><br/>'
+  ];
+
+  //建立地圖 marker 的集合
+  var marker_config = [
+    {
+      position: {lat: 24.226772,lng: 120.582698},
+      map: map,
+      title:'思源樓旁花圃'
+    },{
+      position: {lat: 24.226955,lng: 120.584126},
+      map: map,
+      title:'主顧樓後道路'
+    },{
+      position: {lat: 24.227171,lng: 120.584117},
+      map: map,
+      title:'主顧樓後道路'
+    },{
+      position: {lat: 24.227146,lng: 120.584113},
+      map: map,
+      title:'主顧樓後道路'
+    },{
+      position: {lat: 24.226295,lng: 120.577871},
+      map: map,
+      title:'排球場旁圍欄'
+    },{
+      position: {lat: 24.226382,lng: 120.579008},
+      map: map,
+      title:'櫻花步道旁'
+    },{position: {lat: 24.227764,lng: 120.579568},
+      map: map,
+      title:'至善樓旁'
+    },
+    {
+      position: {lat: 24.228980,lng: 120.578889},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.228907,lng: 120.579050},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.229025,lng: 120.578707},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.229084,lng: 120.578552},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.229128,lng: 120.578434},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.229108,lng: 120.578321},
+      map: map,
+      title:'操場旁'
+    },
+    {
+      position: {lat: 24.228791,lng: 120.579504},
+      map: map,
+      title:'操場旁欄杆'
+    },
+    {
+      position: {lat: 24.227380,lng: 120.578948},
+      map: map,
+      title:'操場對面人行道'
+    },
+    {
+      position: {lat: 24.227318,lng: 120.578971},
+      map: map,
+      title:'操場對面人行道'
+    },
+    {
+      position: {lat: 24.227594,lng: 120.578948},
+      map: map,
+      title:'體育室旁草叢'
+    },
+    {
+      position: {lat: 24.229804,lng: 120.580102},
+      map: map,
+      title:'游泳池旁'
+    },
+    {
+      position: {lat: 24.229804,lng: 120.580282},
+      map: map,
+      title:'游泳池旁'
+    },
+    {
+      position: {lat: 24.229783,lng: 120.580000},
+      map: map,
+      title:'游泳池旁'
+    },
+    {
+      position: {lat: 24.229568,lng: 120.580447},
+      map: map,
+      title:'游泳池旁'
+    },
+    {
+      position: {lat: 24.229282,lng: 120.579827},
+      map: map,
+      title:'溜冰場外欄杆'
+    },{position: {lat: 24.229338,lng: 120.580523},
+      map: map,
+      title:'體育館旁'
+    },{position: {lat: 24.229305,lng: 120.580513},
+      map: map,
+      title:'體育館旁'
+    },
+    {
+      position: {lat: 24.226604,lng: 120.579167},
+      map: map,
+      title:'小羅馬前'
+    },{position: {lat: 24.226623,lng: 120.579169},
+      map: map,
+      title:'小羅馬前'
+    },
+    {
+      position: {lat: 24.225799,lng: 120.581881},
+      map: map,
+      title:'廢水處理外欄杆'
+    },
+    {
+      position: {lat: 24.225830,lng: 120.582170},
+      map: map,
+      title:'廢水處理外欄杆'
+    },{position: {lat: 24.226013,lng: 120.583511},
+      map: map,
+      title:'格倫樓左側'
+    },{position: {lat: 24.226007,lng: 120.583493},
+      map: map,
+      title:'格倫樓左側'
+    },
+    {
+      position: {lat: 24.225862,lng: 120.582939},
+      map: map,
+      title:'側邊花圃'
+    },{position: {lat: 24.228081,lng: 120.583285},
+      map: map,
+      title:'生態池'
+    },{position: {lat: 24.227934,lng: 120.583998},
+      map: map,
+      title:'生態園'
+    },
+    {
+      position: {lat: 24.228007,lng: 120.583931},
+      map: map,
+      title:'生態園'
+    },{position: {lat: 24.227750,lng: 120.583820},
+      map: map,
+      title:'生態園'
+    },{position: {lat: 24.227732,lng: 120.583782},
+      map: map,
+      title:'生態園'
+    },{position: {lat: 24.228685,lng: 120.583696},
+      map: map,
+      title:'方濟樓外欄杆'
+    },{position: {lat: 24.226002,lng: 120.579771},
+      map: map,
+      title: '計中停車場'
+    },{position: {lat: 24.225708,lng: 120.579997},
+      map: map,
+      title: '計中外斜坡'
+    }
+
+  ];
+
+  //設定 Info window 內容
+
+  info_config.forEach(function(e,i){
+    infoWindows[i] = new google.maps.InfoWindow({
+      content: e
+    });
+  });
+
+
+  //標出 marker
+  marker_config.forEach(function(e,i){
+    markers[i] = new google.maps.Marker(e);
+    markers[i].setMap(map);
+    markers[i].addListener('click', function() {
+      infoWindows[i].open(map, markers[i]);
+    });
+  });
+
+
+
+  function _geocoder(address){
+    geocoder.geocode({
+      address: address
+    }, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        LatLng = results[0].geometry.location;
+        return results;
+      }
+    });
+  }
+
+  console.log(_geocoder('台中市'));
+
+}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1kZO6pcnhQ620A_UPGen22SHos5OeFmg&callback=initMap">
+    </script>
+  </body>
+</html>

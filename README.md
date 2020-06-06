@@ -5,7 +5,7 @@
   - Google Earth pro
   - Google Map API
   - Python(folium套件)
-  - ArcGis
+  - ArcGIS
 - 如何操作
   - Google Earth pro
     - 開啟"小花蔓澤蘭蔓延圖.kmz"(github上無法放超過100M的檔案，所以這裡直接展示)
@@ -15,7 +15,7 @@
     ![image](https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/GoogleMapApi.gif)
   - Python(folium套件)
     - ![image](https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/folium.gif)
-  - ArcGis
+  - ArcGIS
     - 到瀏覽器輸入連結"https://arcg.is/1bCvXC"
     ![image](https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/ArcGis.gif)
     

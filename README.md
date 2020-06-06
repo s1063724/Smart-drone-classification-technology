@@ -45,5 +45,5 @@
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_mobileNet.jpg" width="400"/><br/>
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_mobileNet1.jpg" width="700"/><br/>
   - AlexNet<br/>
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_alexNet.jpg" width="400"/><br/>
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_alexNet1.jpg" width="700"/><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_alex.jpg" width="400"/><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/model_demo/optimal_alex1.jpg" width="700"/><br/>

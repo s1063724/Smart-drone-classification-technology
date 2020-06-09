@@ -1,5 +1,5 @@
 # 智慧無人機偵測小花蔓澤蘭技術
-專題介紹影片:https://youtu.be/VHwg3SJm8cI
+專題介紹影片:https://youtu.be/l3UUoJQnkZs
 
 壹、小花蔓澤蘭蔓延程度
 ---

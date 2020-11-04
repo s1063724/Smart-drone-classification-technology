@@ -62,14 +62,22 @@ Google雲端:https://drive.google.com/drive/u/0/folders/1wh_Kx8QquIs2Vhor61Hc0R7
   - PyCharm 2020.2.2
 - 無人機飛行跟錄影
   開啟並執行Tello-Python/fly.py
+  
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_fly_and_video.jpg" width="400"/><br/>
+  
   檔案會存在Tello-Python內
+  
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/fly_and_video_save_file.jpg" width="400"><br/>
+  
 - 無人機飛行及紀錄影像轉csv檔
   開啟並執行TelloPy/tellopy/record_log.py
+  
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/recode_video.jpg" width="400"><br/>
-- 影像邊緣化
+  
+- 影像邊緣化<br/>
   開啟並執行TelloPy/tellopy/video_effect.py
+  
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_image_canny.png"  width="400"><br/>
+  
 - 室外執行影片
   https://www.youtube.com/watch?v=hhgbvYMlVEU

@@ -91,18 +91,48 @@ Google雲端:https://drive.google.com/drive/u/0/folders/1wh_Kx8QquIs2Vhor61Hc0R7
  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/SLAM.png"  width="700"><br/>
 伍、YOLO
 ---
-  - 開發環境
-    -Windows10
-  - 照片標記
+  - widows環境 實作YOLO
+    - 使用工具及環境
+      Anaconda、PyCharm、LabelImg、keras、YOLOv3
+    - 標記過程
+    從github下載LabelImg(https://github.com/tzutalin/labelImg)
+    使用Anaconda cmd 啟動LabelImg
+    使用指令:(若無法使用指令請先下載及安裝pip)
+    ```
+    pip install PyQt5
+    pip install lxml
+    For pyqt5, pyrcc5 -o libs/resources.py resources.qrc
+    python labelImg.py
+    ```
+    開始針對每一張照片做標記(label)
+    
+    <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label.jpg"  width="700"><br/>
+    <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label2.jpg"  width="700"><br/>
+    
+    - 將每個標記檔(XML)轉換成YOLO格式
+      使用指令:(須考慮到版本相容問題)
+      https://docs.floydhub.com/guides/environments/
+      ```
+      conda install keras-gpu
+      conda install keras
+      conda install pillow
+      ```
+    - 下載YOLOv3原始碼及模型訓練好的weights檔案
+    https://github.com/qqwweee/keras-yolo3
+    https://pjreddie.com/media/files/yolov3.weights
+    轉換指令:
+    ```
+    python voc_annotation.py
+    python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5
+    ```
+    訓練模型指令:
+    ```
+    python train.py
+    ```
   
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label.jpg"  width="700"><br/>
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label2.jpg"  width="700"><br/>
+    <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_train.png"  width="700"><br/>
   
-  - yolo訓練
-  
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_train.png"  width="700"><br/>
-  
-  - yolo優化
+  - 成果檢視
   
   <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_optimal.png"  width="700"><br/>
 

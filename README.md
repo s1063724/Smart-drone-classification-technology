@@ -61,23 +61,67 @@ Google雲端:https://drive.google.com/drive/u/0/folders/1wh_Kx8QquIs2Vhor61Hc0R7
   - Python 3.7
   - PyCharm 2020.2.2
 - 無人機飛行跟錄影
-  開啟並執行Tello-Python/fly.py
+  開啟並執行fly_and_record/Tello-Python/fly_and_video.py
   
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_fly_and_video.jpg" width="400"/><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_fly_and_video.jpg" width="700"/><br/>
   
   檔案會存在Tello-Python內
   
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/fly_and_video_save_file.jpg" width="400"><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/fly_and_video_save_file.jpg" width="700"><br/>
   
 - 無人機飛行及紀錄影像轉csv檔
-  開啟並執行TelloPy/tellopy/record_log.py
+  開啟並執行fly_and_record/TelloPy/tellopy/record_log.py
   
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/recode_video.jpg" width="400"><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/recode_video.jpg" width="700"><br/>
   
 - 影像邊緣化<br/>
-  開啟並執行TelloPy/tellopy/video_effect.py
+  開啟並執行fly_and_record/TelloPy/tellopy/video_effect.py
   
-  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_image_canny.png"  width="400"><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/tello_image_canny.png"  width="700"><br/>
   
 - 室外執行影片
   https://www.youtube.com/watch?v=hhgbvYMlVEU
+ 
+ 肆、ROS_ORBSLAM
+ ---
+ - 開發環境
+    - Ubuntu 18.04LTS
+ - 安裝相關依賴:[安裝教學](https://hackmd.io/OzbbO-ihSG6ODoc_QImOlg)
+ 
+ <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/SLAM.png"  width="700"><br/>
+伍、YOLO
+---
+  - 開發環境
+    -Windows10
+  - 照片標記
+  
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label.jpg"  width="700"><br/>
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_label2.jpg"  width="700"><br/>
+  
+  - yolo訓練
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_train.png"  width="700"><br/>
+  
+  - yolo優化
+  <img src="https://github.com/s1063724/Smart-drone-classification-technology/blob/master/ExecuteSample/yolo_optimal.png"  width="700"><br/>
+
+陸、參考資料
+---
+[小花蔓澤蘭 台灣環境資訊協會](https://teia.tw/zh-hant/natural-valley/species/11961)
+[小花蔓澤蘭](http://kplant.biodiv.tw/%E5%B0%8F%E8%8A%B1%E8%94%93%E6%BE%A4%E8%98%AD/%E5%B0%8F%E8%8A%B1%E8%94%93%E6%BE%A4%E8%98%AD.htm)
+[小花蔓澤蘭 維基百科](https://zh.wikipedia.org/wiki/%E5%B0%8F%E8%8A%B1%E8%94%93%E6%BE%A4%E8%98%AD)
+[她被小黑蚊咬成紅豆冰 小花蔓澤蘭竟然可以防蚊](https://video.udn.com/news/552393)
+[Google Map API](https://developers.google.com/maps/documentation/javascript/tutorial)
+[Google Earth pro](https://www.google.com/earth/outreach/learn/mapping-from-a-google-spreadsheet/#enter-basic-information-and-publish-your-spreadsheet-1-2)
+[Python(folium 套件)](https://python-visualization.github.io/folium/quickstart.html)
+[ArcGis](https://learn.arcgis.com/en/projects/analyze-return-on-investment-at-united-states-colleges/)
+[順序模型](https://keras.io/guides/sequential_model/)
+[RestNet18](https://pytorch.org/docs/stable/torchvision/models.html)
+[【AI实战】基础环境搭建](https://my.oschina.net/u/876354/blog/1924805)
+[【AI实战】动手训练自己的目标检测模型（YOLO篇)](https://my.oschina.net/u/876354/blog/1927881)
+[使用python模組控制Tello無人機](http://blog.hashteacher.com/?p=1048)
+[ROS Melodic Morenia](http://wiki.ros.org/melodic)
+[Tello_ROS_ORBSLAM](https://github.com/tau-adl/Tello_ROS_ORBSLAM)
+[Video Stream does not work #21](https://github.com/damiafuentes/DJITelloPy/issues/21)
+[ROS以控制空拍機](https://www.coderbridge.com/series/726ee8e84edc4073aab642d1ab5965fa/posts/83556de29b6e4fcf9306e8a7ca14f2a1#article-comment-wrapper)
+小花蔓澤蘭危害與防除現況 臺北市立大學地球環境暨生物資源學系 黃基森、薛翔泰
+  

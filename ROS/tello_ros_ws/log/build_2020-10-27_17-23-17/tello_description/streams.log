@@ -1,0 +1,35 @@
+[0.035s] Invoking command in '/home/wuray/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/tello_description -- -j4 -l4
+[0.077s] [ 11%] Built target generate_urdf_7
+[0.083s] [ 22%] Built target generate_urdf_4
+[0.083s] [ 33%] Built target generate_urdf_3
+[0.088s] [ 44%] Built target generate_urdf_5
+[0.114s] [ 55%] Built target generate_urdf_1
+[0.120s] [ 66%] Built target generate_urdf
+[0.125s] [ 77%] Built target generate_urdf_8
+[0.130s] [ 88%] Built target generate_urdf_6
+[0.139s] [100%] Built target generate_urdf_2
+[0.160s] Invoked command in '/home/wuray/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/tello_description -- -j4 -l4
+[0.209s] Invoking command in '/home/wuray/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/wuray/tello_ros_ws/build/tello_description
+[0.217s] -- Install configuration: ""
+[0.217s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf
+[0.217s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[0.217s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[0.217s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[0.219s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[0.219s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[0.219s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[0.220s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf
+[0.223s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[0.226s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[0.226s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[0.227s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[0.227s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[0.227s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh
+[0.228s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash
+[0.228s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh
+[0.228s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh
+[0.229s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[0.229s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[0.229s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[0.229s] -- Up-to-date: /home/wuray/tello_ros_ws/install/tello_description/share/tello_description/package.xml
+[0.242s] Invoked command in '/home/wuray/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/wuray/tello_ros_ws/build/tello_description

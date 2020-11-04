@@ -1,0 +1,21 @@
+[0.038s] Invoking command in '/home/wuray/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/ros2_shared -- -j4 -l4
+[0.071s] Invoked command in '/home/wuray/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/ros2_shared -- -j4 -l4
+[0.121s] Invoking command in '/home/wuray/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/wuray/tello_ros_ws/build/ros2_shared
+[0.131s] -- Install configuration: ""
+[0.131s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/include
+[0.132s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/include/ros2_shared
+[0.132s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[0.133s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[0.133s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[0.133s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[0.134s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[0.134s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[0.135s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[0.135s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[0.135s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[0.137s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[0.138s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.138s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[0.138s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[0.139s] -- Installing: /home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml
+[0.143s] Invoked command in '/home/wuray/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake --install /home/wuray/tello_ros_ws/build/ros2_shared

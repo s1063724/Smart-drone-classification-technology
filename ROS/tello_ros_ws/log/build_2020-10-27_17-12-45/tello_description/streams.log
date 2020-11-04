@@ -1,0 +1,28 @@
+[0.045s] Invoking command in '/home/wuray/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake /home/wuray/tello_ros_ws/src/tello_ros/tello_description -DCMAKE_INSTALL_PREFIX=/home/wuray/tello_ros_ws/install/tello_description
+[0.167s] -- The C compiler identification is GNU 7.5.0
+[0.293s] -- The CXX compiler identification is GNU 7.5.0
+[0.318s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.446s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.654s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.112s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello.urdf
+[1.112s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_1.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_2.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_3.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_4.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_5.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_6.urdf
+[1.113s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_7.urdf
+[1.114s] creating rules for /home/wuray/tello_ros_ws/build/tello_description/urdf/tello_8.urdf
+[1.202s] -- Configuring done
+[1.208s] -- Generating done
+[1.210s] -- Build files have been written to: /home/wuray/tello_ros_ws/build/tello_description

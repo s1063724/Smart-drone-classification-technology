@@ -1,0 +1,13 @@
+[0.041s] Invoking command in '/home/wuray/tello_ros_ws/build/tello_gazebo': AMENT_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_msgs:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/wuray/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuray/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/tello_gazebo -- -j4 -l4
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o[0m
+[1.785s] [01m[K/home/wuray/tello_ros_ws/src/tello_ros/tello_gazebo/src/tello_plugin.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+[1.785s]  #include [01;31m[K"gazebo_ros/node.hpp"[m[K
+[1.785s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.785s] compilation terminated.
+[1.795s] CMakeFiles/TelloPlugin.dir/build.make:81: recipe for target 'CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o' failed
+[1.796s] make[2]: *** [CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o] Error 1
+[1.796s] CMakeFiles/Makefile2:117: recipe for target 'CMakeFiles/TelloPlugin.dir/all' failed
+[1.796s] make[1]: *** [CMakeFiles/TelloPlugin.dir/all] Error 2
+[1.796s] Makefile:159: recipe for target 'all' failed
+[1.796s] make: *** [all] Error 2
+[1.798s] Invoked command in '/home/wuray/tello_ros_ws/build/tello_gazebo' returned '2': AMENT_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_msgs:/opt/ros/dashing:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/wuray/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wuray/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/wuray/tello_ros_ws/build/tello_gazebo -- -j4 -l4

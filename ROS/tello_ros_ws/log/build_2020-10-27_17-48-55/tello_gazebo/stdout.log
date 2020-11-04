@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o[0m
+CMakeFiles/TelloPlugin.dir/build.make:81: recipe for target 'CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o' failed
+CMakeFiles/Makefile2:117: recipe for target 'CMakeFiles/TelloPlugin.dir/all' failed
+Makefile:159: recipe for target 'all' failed

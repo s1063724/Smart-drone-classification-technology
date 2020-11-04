@@ -1,0 +1,19 @@
+[0.054s] Invoking command in '/home/wuray/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/home/wuray/tello_ros_ws/install/tello_description:/home/wuray/tello_ros_ws/install/ros2_shared:/opt/ros/dashing:/home/wuray/flock_catkin_ws/devel:/opt/ros/melodic /usr/local/bin/cmake /home/wuray/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/wuray/tello_ros_ws/install/ros2_shared
+[0.147s] -- The C compiler identification is GNU 7.5.0
+[0.275s] -- The CXX compiler identification is GNU 7.5.0
+[0.289s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.433s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.196s] -- Configuring done
+[1.198s] -- Generating done
+[1.200s] -- Build files have been written to: /home/wuray/tello_ros_ws/build/ros2_shared

@@ -1,0 +1,14 @@
+/home/wuray/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+/home/wuray/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+/home/wuray/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml

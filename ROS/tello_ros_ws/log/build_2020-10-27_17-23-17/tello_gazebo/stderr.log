@@ -1,0 +1,29 @@
+CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/share/cmake-3.18/Modules/FindPkgConfig.cmake:59 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:30 (include)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at CMakeLists.txt:49 (add_library):
+  Cannot generate a safe runtime search path for target TelloPlugin because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libconsole_bridge.so.0.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/dashing/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[01m[K/home/wuray/tello_ros_ws/src/tello_ros/tello_gazebo/src/tello_plugin.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/node.hpp: No such file or directory
+ #include [01;31m[K"gazebo_ros/node.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/TelloPlugin.dir/all] Error 2
+make: *** [all] Error 2

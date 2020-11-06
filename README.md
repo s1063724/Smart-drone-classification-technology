@@ -8,6 +8,8 @@ Google雲端:https://drive.google.com/drive/u/0/folders/1wh_Kx8QquIs2Vhor61Hc0R7
 
 壹、小花蔓澤蘭蔓延程度
 ---
+- 開發環境
+  - Windows 10
 - 使用的四個工具
   - Google Earth pro
   - Google Map API
